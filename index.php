@@ -44,12 +44,12 @@
 								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Intro</span></a></li>
 								<li><a href="#facebook" id="facebook-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Facebook Groups</span></a></li>
 								<li><a href="#dropbox" id="dropbox-link" class="skel-panels-ignoreHref"><span class="icon icon-dropbox">Dropbox</span></a></li>
-								<!--<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Contact</span></a></li>-->
+                                <li><a href="#help" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Help</span></a></li>
 							</ul>
 						</nav>
-						
+
 				</div>
-				
+
 				<div class="bottom">
 
 					<!-- Social Icons -->
@@ -60,14 +60,14 @@
 							<!--<li><a href="#" class="icon icon-dribbble"><span>Dribbble</span></a></li>-->
 							<!--<li><a href="#" class="icon icon-envelope"><span>Email</span></a></li>-->
 						</ul>
-				
+
 				</div>
-			
+
 			</div>
 
 		<!-- Main -->
 			<div id="main">
-			
+
 				<!-- Intro -->
 					<section id="top" class="one">
 						<div class="container">
@@ -77,7 +77,7 @@
 							<header>
                                 <h2 class="alt"><strong>Guidelines</strong> for GroupT students by GroupT students!</h2>
 							</header>
-							
+
                             <p>Are you a <em>future</em> engineering student and wondering how to pass every year at GroepT with minimal effort?<br> If so, read on!</p>
 
 							<footer>
@@ -86,17 +86,17 @@
 
 						</div>
 					</section>
-					
+
 				<!-- Portfolio -->
 					<section id="facebook" class="two">
 						<div class="container">
-					
+
 							<header>
 								<h2>Facebook Groups</h2>
 							</header>
-							
+
 							<p>Since 2012 there are multiple Facebook Groups, separated by stage/specialisation. When you're in need of assistance, want to share something relevant or just keep up with what's happening join the matching group to your stage.</p>
-						
+
 							<div class="row">
 								<div class="4u">
 									<article class="item">
@@ -157,7 +157,6 @@
 							</div>
 						</div>
 					</section>
-					<!--
 					<section id="dropbox" class="three">
 						<div class="container">
 
@@ -165,41 +164,62 @@
 								<h2>Dropbox</h2>
 							</header>
 							<p>Dropbox is the place where students can share/find notes, exams and solutions for exercises. Don't use Dropbox? Don't worry, everything is mirrored at Google Drive and SkyDrive!</p>
-							<p></p>
 
-							<a href="http://ineedchemicalx.deviantart.com/art/Pasadena-357650036" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 							<div class="row">
 								<div class="4u">
 									<article class="item">
-										<header><h3>Fase 1</h3></a></header>
-										<a href="#" class="icon icon-dropbox">DropBox</a>
+										<h3>Stage 1</h3>
+                                        <ul>
+                                            <li><a href="https://www.dropbox.com/sh/cckg4p57t7754dq/_YE47AJRaW"><i class="icon icon-dropbox"> DropBox</i></a> <!--<small>(<a href="#">add me</a>)</small>--></li>
+                                            <!--<li class="dropbox_add"><input type="email" class="email" name="email"><input type="submit" name="stage3" class="submit"></li>-->
+                                            <li><a href="https://drive.google.com/folderview?id=0B1n2dHvDnMbqTGUyWS1zUUhraGc&usp=sharing"><i class="icon icon-google-plus-sign"> Google Drive</i></a></li>
+                                            <li><a href="http://sdrv.ms/1b5dGP4"><i class="icon icon-windows"> SkyDrive</i></a></li>
+                                        </ul>
+<!--
+                                        <div class="addme">
+                                            <input type="email" placeholder="email@example.com" name="email">
+                                            <input type="submit">
+                                        </div>
+-->
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<h3>Stage 2</h3>
+                                        <ul>
+                                            <li><a href="https://www.dropbox.com/sh/0w5s8cmzuy2n9hx/0a42caGX-y"><i class="icon icon-dropbox"> DropBox</i></a></li>
+                                        </ul>
+<p style="text-align: center; font-size: 5em;margin: 0.6em 0;"><i class="icon icon-trash"></i></p>
+<p style="text-align: center;">Is being cleaned up!</p>
+<p style="text-align: center;font-size:small;">add-me link will be added soon!</p>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<h3>Stage 3 <small>(common courses)</small></h3>
+                                        <ul>
+                                            <li><a href="https://www.dropbox.com/sh/ln7vr12ntbi8jis/hXUcJOhMwT"><i class="icon icon-dropbox"> DropBox</i></a></li>
+                                        </ul>
 									</article>
 								</div>
 							</div>
-							<p>asdaafs</p>
 
 						</div>
 					</section>
-					-->
-			
-				<!-- Contact --
-					<section id="contact" class="four">
+
+					<section id="help" class="four">
 						<div class="container">
 
 							<header>
-								<h2>Contact</h2>
+								<h2>Help</h2>
 							</header>
-							<p>To contribute sent to larry.bolt@gmail.com or <a href="https://github.com/IndustriaLeuven/intro">fork/pull</a></p>
-							<!--
-							<p>Elementum sem parturient nulla quam placerat viverra 
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia 
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc 
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-							
-							<form method="post" action="#">
+							<p>Is something not clear, found an error or just want someone to talk to?</p>
+                            <?php if (!isset($_GET['submitted'])): ?>
+
+							<form method="post" action="/submit.php?type=contact">
 								<div class="row half">
-									<div class="6u"><input type="text" class="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" class="text" name="email" placeholder="Email" /></div>
+									<div class="6u"><input type="text" class="text" name="name" placeholder="Name (optional)" /></div>
+									<div class="6u"><input type="text" class="text" name="email" placeholder="Email (optional)" /></div>
 								</div>
 								<div class="row half">
 									<div class="12u">
@@ -212,23 +232,25 @@
 									</div>
 								</div>
 							</form>
-							--
+                            <?php else: ?>
+                            <p>Thanks! Your message is been sent!</p>
+                            <?php endif; ?>
 
 						</div>
-					</section>-->
-			
+					</section>
+
 			</div>
 
 		<!-- Footer -->
 			<div id="footer">
-				
+
 				<!-- Copyright -->
 					<div class="copyright">
 						<ul class="menu">
 							<li><a href="http://html5up.net">design</a></li>
 						</ul>
 					</div>
-				
+
 			</div>
 
 	</body>

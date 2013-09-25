@@ -1103,3 +1103,29 @@
 		{
 			background-color: #e8edec;
 		}
+        #dropbox article.item {
+            background: white;
+            text-align: left;
+            padding: 2% 5% 4%;
+        }
+        small {
+            font-size: small;
+        }
+        #dropbox article.item h3 {
+            border-bottom: 1px solid #e8eded;
+        }
+        #dropbox article.item ul {
+            margin: 5%;
+        }
+        #dropbox article.item ul li {
+            margin-top: 5%;
+        }
+        #dropbox article.item li.dropbox_add input.submit{
+            width: 27%;
+        }
+        #dropbox article.item li.dropbox_add input.email{
+            width: 70%;
+        }
+        #dropbox article.item ul li a {
+            border: none;
+        }
