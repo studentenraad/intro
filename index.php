@@ -35,15 +35,15 @@
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.png" alt="" /></span>
 							<h1 id="title">GroepTstudent</h1>
-							<!--<span class="byline"></span>-->
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Intro</span></a></li>
-								<li><a href="#facebook" id="facebook-link" class="skel-panels-ignoreHref"><span class="icon icon-th">Facebook Groups</span></a></li>
+								<li><a href="#facebook" id="facebook-link" class="skel-panels-ignoreHref"><span class="icon icon-facebook">Facebook Groups</span></a></li>
 								<li><a href="#dropbox" id="dropbox-link" class="skel-panels-ignoreHref"><span class="icon icon-dropbox">Dropbox</span></a></li>
+								<li><a href="#more" id="more-link" class="skel-panels-ignoreHref"><span class="icon icon-link">More</span></a></li>
                                 <li><a href="#help" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Help</span></a></li>
 							</ul>
 						</nav>
@@ -155,6 +155,9 @@
 									</article>
 								</div>
 							</div>
+							<footer>
+								<a href="#dropbox" class="button scrolly">What about files?</a>
+							</footer>
 						</div>
 					</section>
 					<section id="dropbox" class="three">
@@ -189,9 +192,9 @@
                                         <ul>
                                             <li><a href="https://www.dropbox.com/sh/0w5s8cmzuy2n9hx/0a42caGX-y"><i class="icon icon-dropbox"> DropBox</i></a></li>
                                         </ul>
-<p style="text-align: center; font-size: 5em;margin: 0.6em 0;"><i class="icon icon-trash"></i></p>
-<p style="text-align: center;">Is being cleaned up!</p>
-<p style="text-align: center;font-size:small;">add-me link will be added soon!</p>
+                                        <p style="text-align: center; font-size: 5em;margin: 0.6em 0;"><i class="icon icon-trash"></i></p>
+                                        <p style="text-align: center;">Is being cleaned up!</p>
+                                        <p style="text-align: center;font-size:small;">add-me link will be added soon!</p>
 									</article>
 								</div>
 								<div class="4u">
@@ -204,9 +207,35 @@
 								</div>
 							</div>
 
+							<footer>
+								<a href="#more" class="button scrolly">It that it?</a>
+							</footer>
 						</div>
 					</section>
 
+					<section id="more" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Moar!!!</h2>
+							</header>
+                            <p>
+                                But of course there's more! Be sure to pay a visit to the site of Industria for your courses and drinking activities! Studentenraad to get the "<a title="I know it's a bit outdated, but they're fixing that!">news</a>" about the studentcouncil.
+                                <br><em style="font-size: .7em"> Oh and don't forget about the good ol' Studforum!</em>
+                            </p>
+							<div class="row">
+								<div class="4u">
+                                        <a href="http://www.industria.be" target="_blank"><img src="/images/industria.png" style="width: 100%"></a>
+								</div>
+								<div class="8u">
+                                        <a href="http://www.studentenraad.be" target="_blank"><img src="/images/studentenraad.png" style="width: 100%"></a>
+								</div>
+							</div>
+							<div class="row">
+                                <a href="http://studforum.net" target="_blank"><img src="/images/studforum.gif" style="width: 30%"></a>
+                            </div>
+						</div>
+					</section>
 					<section id="help" class="four">
 						<div class="container">
 
@@ -247,7 +276,8 @@
 				<!-- Copyright -->
 					<div class="copyright">
 						<ul class="menu">
-							<li><a href="http://html5up.net">design</a></li>
+							<li><a href="http://html5up.net"><i class="icon icon-asterisk" title=Yes! It is a template! But looks damn pretty anyway..."></i></a></li>
+                            <li>“Efficiency is intelligent laziness.”</li>
 						</ul>
 					</div>
 

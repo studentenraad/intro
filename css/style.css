@@ -1129,3 +1129,15 @@
         #dropbox article.item ul li a {
             border: none;
         }
+        #more .container .row a {
+            border-bottom: none;
+        }
+        #more a img {
+            opacity: .7;
+             -webkit-transition: opacity 0.5s ease-in-out;
+            -moz-transition: opacity 0.5s ease-in-out;
+            transition: opacity 0.5s ease-in-out;
+        }
+        #more a:hover img {
+            opacity: 1;
+        }
