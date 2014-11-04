@@ -43,8 +43,10 @@
 								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="icon icon-home">Intro</span></a></li>
 								<li><a href="#facebook" id="facebook-link" class="skel-panels-ignoreHref"><span class="icon icon-facebook">Facebook Groups</span></a></li>
 								<li><a href="#dropbox" id="dropbox-link" class="skel-panels-ignoreHref"><span class="icon icon-dropbox">Dropbox</span></a></li>
-								<li><a href="#more" id="more-link" class="skel-panels-ignoreHref"><span class="icon icon-link">More</span></a></li>
-                                <li><a href="#help" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Help</span></a></li>
+                <li><a href="#more" id="more-link" class="skel-panels-ignoreHref"><span class="icon icon-link">More</span></a></li>
+<!--
+                <li><a href="#help" id="contact-link" class="skel-panels-ignoreHref"><span class="icon icon-envelope">Help</span></a></li>
+-->
 							</ul>
 						</nav>
 
@@ -236,6 +238,7 @@
                             </div>
 						</div>
 					</section>
+<!--
 					<section id="help" class="four">
 						<div class="container">
 
@@ -243,30 +246,11 @@
 								<h2>Help</h2>
 							</header>
 							<p>Is something not clear, found an error or just want someone to talk to?</p>
-                            <?php if (!isset($_GET['submitted'])): ?>
 
-							<form method="post" action="/submit.php?type=contact">
-								<div class="row half">
-									<div class="6u"><input type="text" class="text" name="name" placeholder="Name (optional)" /></div>
-									<div class="6u"><input type="text" class="text" name="email" placeholder="Email (optional)" /></div>
-								</div>
-								<div class="row half">
-									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<a href="#" class="button submit">Send Message</a>
-									</div>
-								</div>
-							</form>
-                            <?php else: ?>
-                            <p>Thanks! Your message is been sent!</p>
-                            <?php endif; ?>
 
 						</div>
 					</section>
+-->
 
 			</div>
 
